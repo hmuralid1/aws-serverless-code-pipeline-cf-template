@@ -12,4 +12,7 @@ echo "env:$env"
 echo "CODEBUILD_SRC_DIR:$CODEBUILD_SRC_DIR"
 echo "_______________________________"
 echo "serverless deploy --stage $env --package $CODEBUILD_SRC_DIR/artifacts/$env -v"
+echo "serverless deploy -v"
+serverless deploy -v
+
 echo "serverless deploy completed"
