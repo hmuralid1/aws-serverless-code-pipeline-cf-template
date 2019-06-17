@@ -14,3 +14,7 @@ functions:
     events:
       - http: ANY /
       - http: 'ANY {proxy+}'
+Resources:
+  Type: 'AWS::S3::Bucket'
+  Properties:
+    BucketName: hmuralid-serverless-bucket-123456789
